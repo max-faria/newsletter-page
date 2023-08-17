@@ -9,16 +9,28 @@ export default function Input(props) {
     try {
       validateEmail(ev.target.value);
       document.querySelector("#email").classList.add("success");
-      //document.querySelector("#email-error").textContent = "";
       document.querySelector("#email").classList.remove("border-red-500");
       document.querySelector("#email").classList.remove("focus:ring-red-500");
       document.querySelector("#email").classList.remove("focus:border-red-500");
+      document.querySelector("#email").classList.add("border-verde-success");
+      document
+        .querySelector("#email")
+        .classList.add("focus:ring-verde-success");
+      document
+        .querySelector("#email")
+        .classList.add("focus:border-verde-success");
     } catch (err) {
       document.querySelector("#email").classList.remove("success");
-      //document.querySelector("#email-error").textContent = err.message;
       document.querySelector("#email").classList.add("border-red-500");
       document.querySelector("#email").classList.add("focus:ring-red-500");
       document.querySelector("#email").classList.add("focus:border-red-500");
+      document.querySelector("#email").classList.remove("border-verde-success");
+      document
+        .querySelector("#email")
+        .classList.remove("focus:ring-verde-success");
+      document
+        .querySelector("#email")
+        .classList.remove("focus:border-verde-success");
     }
   };
 

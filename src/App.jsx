@@ -19,17 +19,6 @@ function App() {
             <h3 className="text-xl font-normal text-cinza-claro pt-5 px-5 sm:text-start sm:px-0 sm:pr-16">
               Be the first to get exclusive offers ands the latest news
             </h3>
-            {/* <input
-              type="text"
-              placeholder="Enter your email adress"
-              className="mt-5 p-3 font-4 rounded-lg border-cinza-claro2 border mx-5 sm:mx-0 sm:mr-16 focus:outline-none hover:border-azul-claro hover:ring-1 hover:ring-azul-escuro focus:border-azul-escuro focus:ring-1 focus:ring-azul-escuro "
-            />
-            <button
-              type="submit"
-              className="mt-5 mb-5 font-5 text-branco-total bg-azul-button py-3 px-30 rounded-lg mx-5 sm:mx-0 sm:mr-16 hover:bg-azul-hover duration-150"
-            >
-              Subscribe Now
-            </button> */}
             <Input text="Enter your email adress" />
             <Button />
           </section>
