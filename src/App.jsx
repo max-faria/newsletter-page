@@ -1,10 +1,8 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import figure from "./assets/figure.png";
 import "./App.css";
-import Button from "./componets/button/button";
+
 import Input from "./componets/input/Input";
+import Button from "./componets/button/Button";
 
 function App() {
   return (
