@@ -10,7 +10,8 @@ I the page with Vite (Reaxt.js) and used Tailwind for the CSS.
 
 ![Project Status](https://img.shields.io/badge/status-finalized-success)
 
-Link for the deploy: https://newsletter-page.vercel.app/
+<a href="https://newsletter-page.vercel.app/">Deploy link ;)</a>
+
 
 ## Learnings
 
