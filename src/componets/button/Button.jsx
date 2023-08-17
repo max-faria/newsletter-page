@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Button(props) {
+export default function Button() {
   const [buttonText, setButtonText] = useState("Subscribe Now");
   const [buttonColor, setButtonColor] = useState("bg-azul-button");
   const [hoverColor, setHoverColor] = useState("hover:bg-azul-hover");
